@@ -6,7 +6,136 @@
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
+    <header class="main-header">
+      <div class="container">
+        <nav class="main-navigation">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Фото и видео</a>
+            </li>
+			<li>
+              <a class="logo" href="#"><img src="img/header_logo.png" width="138" height="70" alt="Sedona"></a>
+            </li>
+            <li>
+              <a href="#">Карта штата</a>
+            </li>
+            <li>
+              <a href="#">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="container">
+		<div class="index_logo">
+			<img src="img/main_photo.jpg" width="100%" alt="Sedona">
+			<img src="img/main_photo_mask.png" width="100%" height="57" alt="">
+			<img src="img/welcome_sedona.png" width="458" height="352" alt="WelcomeToSedona">
+		</div>
+		<div class="index_content">
+			
+			<p class="index_title">Седона — небольшой городок в Аризоне, заслуживающий большего!</p>
+			<p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+			<div class="index_content_column">
+				<p>Настоящий городок<br>
+				— №1 —<br>
+				Седона - не аттракцион для туристов, там течет своя жизнь</p>
+			</div>
+			<div class="index_content_column column_pic">
+				<img src="img/village.jpg" width="66%" height="auto" alt="">
+			</div>
+			<div class="benefits">
+				<div class="benefits_item benefits_house">
+					<b class="benefits_name">Жилье</b>
+					<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+				</div>
+				<div class="benefits_item benefits_food">
+					<b class="benefits_name">Еда</b>
+					<p>Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
+				</div>
+				<div class="benefits_item benefits_souvenir">
+					<b class="benefits_name">Сувениры</b>
+					<p>Не только китайского, но и местного производства!</p>
+				</div>
+			</div>
+			<div class="index_content_column column_pic">
+				<img src="img/devils_bridge.jpg" width="66%" height="auto" alt="">
+			</div>
+			<div class="index_content_column">
+				<p>Там есть Мост дьявола<br>
+				— №2 —<br>
+				Да, по нему можно пройти! Если конечно вы осмелитесь</p>
+			</div>
+			<div class="index_content_column">
+				<p>Небольшая площадь<br>
+				— №3 —<br>
+				Все достопримечательности находятся очень близко</p>
+			</div>
+			<div class="index_content_column">
+				<p>Красивая дорога<br>
+				— №4 —<br>
+				Ехать в Седону совсем не скучно!</p>
+			</div>
+			<div class="index_content_column">
+				<p>Мало туристов<br>
+				— №5 —<br>
+				Большинство едет в гранд каньон и толпится там</p>
+			</div>
+		</div>
+		<div class="offer">
+			<p class="offer_title">Заинтересовались?</p>
+			<p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+			<a class="search">Поиск гостиницы в Седоне</a>
+			<form class="form_search" action="https://echo.htmlacademy.ru" method="post">
+				<div class="form_search_row">
+					<input id="date_arrive" type="date" required>
+					<label for="date_arrive">Дата заезда:</label>
+				</div>
+				<div class="form_search_row">
+					<input id="date_departure" type="date" required>
+					<label for="date_departure">Дата выезда:</label>
+				</div>
+				<div class="form_search_row">
+					<div class="form_search_column">
+						<input id="number_adults" type="text" value="2" required>
+						<label for="number_adults">Взрослые:</label>
+					</div>
+					<div class="form_search_column">
+						<input id="number_kids" type="text" value="0" required>
+						<label for="number_kids">Дети:</label>
+					</div>
+				</div>
+				<button class="btn form_search_btn" type="submit">
+					Найти
+				</button>
+			</form>
+			<div class="index_map">
+				<img src="img/map.jpg" width="100%" height="auto" alt="MapSedona">
+			</div>
+		</div>
+      </div>
+    </main>
+    <footer class="footer">
+		<div class="container">
+			<div class="footer_sedona">
+				<p>#VisitSedona</p>			
+			</div>
+			<div class="footer_social">
+				<a class="btn btn_social_vk" href="#">Вконтакте</a>
+				<a class="btn btn_social_fb" href="#">Фейсбук</a>
+				<a class="btn btn_social_youtube" href="#">Ютуб</a>
+			</div>
+			<div class="footer_copyright">
+				<p>Website by</p>
+				<a class="btn " href="https://htmlacademy.ru">HTML Academy</a>
+			</div>
+		</div>
+	</footer>
+ 
 
   </body>
 </html>
