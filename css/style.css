@@ -4,6 +4,7 @@ body{
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 21px;
+	max-width: 1200px;
 }
 
 h1{
@@ -16,4 +17,76 @@ h2{
 	font-weight: bold;
 	font-size: 21px;
 	line-height: 21px;
+}
+
+.clearfix::after {
+  content: "";
+
+  display: table;
+  clear: both;
+}
+
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main_header{
+	display: block;
+	min-height: 57px;
+}
+
+.main_navigation{
+	display: block;
+	min-height: 57px;
+	width: 100%;
+}
+
+.main_navigation li{
+	display: inline;
+	width: 20%;
+	white-space: nowrap;
+}
+
+.main_navigation .li:nth-child(2){
+	margin-right: 20%;	
+}
+
+.main_logo{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.promo{
+	position: relative;
+	display: inline-block;
+	
+	background: #000000 url("img/main_photo.jpg") no-repeat 50%;
+	background-size: 100% auto;
+}
+
+.promo img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateX(-50%);
+}
+
+.promo_text{
+	text-align: center;
+}
+
+.features{
+}
+
+.features_text, .benefits_item{
+	float: left;
+	width: 33.334%;
+}
+
+.features_pic{
+	float: left;
+	width: 66.667%;
 }
