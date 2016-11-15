@@ -1,10 +1,19 @@
 body{
-	font-family: "PT Sans Narrow", Arial, sans-serif;; 
-	font-style: normal;
+	margin: 0;
+	padding: 0;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 21px;
-	max-width: 1200px;
+	background: #f2f2f2;
+	
+}
+
+@font-face {
+    font-family: "PT Sans", Arial, sans-serif;
+    src: 
+		url("../fonts/ptsans.woff") format("woff"),
+		url("../fonts/ptsans.woff2") format("woff2");
+	font-weight: 500;
 }
 
 h1{
@@ -19,36 +28,62 @@ h2{
 	line-height: 21px;
 }
 
-.clearfix::after {
-  content: "";
+a{
+	text-decoration: none;
+}
 
-  display: table;
-  clear: both;
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .container{
-	width: 100%;
 	margin: 0 auto;
+	min-width: 768px;
+	max-width: 1200px;
+	background: #ffffff;
+	box-shadow: 0 0 15px rgba(0,0,0,.2);
 }
 
 .main_header{
-	display: block;
+	position: relative;
+	margin: 0;
+	padding: 0;
 	min-height: 57px;
 }
 
 .main_navigation{
-	display: block;
 	min-height: 57px;
 	width: 100%;
 }
 
-.main_navigation li{
-	display: inline;
-	width: 20%;
-	white-space: nowrap;
+.main_navigation ul{
+	margin: 0;
+	font-size:0;
 }
 
-.main_navigation .li:nth-child(2){
+.main_navigation li{
+	display: inline-block;
+	width: 20%;
+	padding: 18px 0;
+	white-space: nowrap;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	color: #fff;
+}
+
+.main_navigation a:hover{
+	color: #81b3d2;
+}
+
+.main_navigation a:active{
+	color: #b2b2b2;
+}
+
+.main_navigation li:nth-child(2){
 	margin-right: 20%;	
 }
 
