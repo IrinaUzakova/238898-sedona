@@ -4,8 +4,7 @@ body{
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 21px;
-	background: #f2f2f2;
-	
+	background: #f2f2f2;	
 }
 
 @font-face {
@@ -46,20 +45,9 @@ a{
 	box-shadow: 0 0 15px rgba(0,0,0,.2);
 }
 
-.main_header{
-	position: relative;
-	margin: 0;
-	padding: 0;
-	min-height: 57px;
-}
-
-.main_navigation{
-	min-height: 57px;
-	width: 100%;
-}
-
 .main_navigation ul{
 	margin: 0;
+	padding: 0;
 	font-size:0;
 }
 
@@ -72,7 +60,10 @@ a{
 	font-weight: bold;
 	text-transform: uppercase;
 	text-align: center;
-	color: #fff;
+}
+
+.main_navigation a{
+	color: #000000;
 }
 
 .main_navigation a:hover{
@@ -92,25 +83,33 @@ a{
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%);
+	z-index: 2;
 }
 
-.promo{
-	position: relative;
-	display: inline-block;
-	
-	background: #000000 url("img/main_photo.jpg") no-repeat 50%;
+.promo{/*!!непонятно как сделать чтобы картинка увеличивалась по высоте при переходе в ширину  768*/
+	background: #e4f1f9 url("../img/main_photo.jpg") no-repeat 50%;
+	min-height: 635px;
+	max-height: 773px;
 	background-size: 100% auto;
 }
 
-.promo img{
-	position: absolute;
-	top: 0;
-	left: 0;
+.promo img{	
+	/*position: absolute;
+	top: 77px;
+	left: 50%;
 	transform: translateX(-50%);
+	*/
+	display: block;
+	margin: auto;
+	padding-top: 77px;
 }
-
 .promo_text{
 	text-align: center;
+	text-transform: uppercase;
+}
+.promo_text h1{
+	max-width: 51%;
+	margin: 0 auto;
 }
 
 .features{
