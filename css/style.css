@@ -7,13 +7,13 @@ body{
 	background: #f2f2f2;	
 }
 
-@font-face {
+/*@font-face {
     font-family: "PT Sans", Arial, sans-serif;
     src: 
 		url("../fonts/ptsans.woff") format("woff"),
 		url("../fonts/ptsans.woff2") format("woff2");
 	font-weight: 500;
-}
+}*/
 
 h1{
 	font-weight: bold;
@@ -107,8 +107,8 @@ a{
 	text-align: center;
 	text-transform: uppercase;
 }
-.promo_text h1{
-	max-width: 51%;
+.promo_text h1{/*!! то же самое. для 768 перенос строки становится в другое место*/
+	min-width: 55%;
 	margin: 0 auto;
 }
 
