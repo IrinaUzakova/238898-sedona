@@ -1,19 +1,12 @@
 body{
 	margin: 0;
 	padding: 0;
+	font-family: "PT Sans", Arial, sans-serif;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 21px;
 	background: #f2f2f2;	
 }
-
-/*@font-face {
-    font-family: "PT Sans", Arial, sans-serif;
-    src: 
-		url("../fonts/ptsans.woff") format("woff"),
-		url("../fonts/ptsans.woff2") format("woff2");
-	font-weight: 500;
-}*/
 
 h1{
 	font-weight: bold;
@@ -88,8 +81,8 @@ a{
 
 .promo{/*!!непонятно как сделать чтобы картинка увеличивалась по высоте при переходе в ширину  768*/
 	background: #e4f1f9 url("../img/main_photo.jpg") no-repeat 50%;
-	min-height: 635px;
-	max-height: 773px;
+	min-height: 773px;
+	max-height: 635px;
 	background-size: 100% auto;
 }
 
@@ -113,14 +106,34 @@ a{
 }
 
 .features{
+	
 }
 
-.features_text, .benefits_item{
+.features_text{
 	float: left;
 	width: 33.334%;
+	background-color: #81b3d2;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 88px;
+}
+
+.features_text h2{
+	max-width: 10%;		
+	text-align: center;
+}
+
+.benefits_item{
+	float: left;
+	width: 33.334%;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .features_pic{
 	float: left;
 	width: 66.667%;
+	height: 255px;
+	
 }
