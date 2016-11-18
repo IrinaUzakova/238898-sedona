@@ -79,11 +79,11 @@ a{
 	z-index: 2;
 }
 
-.promo{/*!!непонятно как сделать чтобы картинка увеличивалась по высоте при переходе в ширину  768*/
+.promo{
 	background: #e4f1f9 url("../img/main_photo.jpg") no-repeat 50%;
-	min-height: 773px;
-	max-height: 635px;
+	height: 663px;
 	background-size: 100% auto;
+	overflow: hidden;
 }
 
 .promo img{	
@@ -101,7 +101,7 @@ a{
 	text-transform: uppercase;
 }
 .promo_text h1{/*!! то же самое. для 768 перенос строки становится в другое место*/
-	min-width: 55%;
+	width: 600px;
 	margin: 0 auto;
 }
 
