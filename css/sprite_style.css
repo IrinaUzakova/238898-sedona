@@ -1,139 +1,155 @@
 .sprite {
-    background-image: url(../img/spritesheet.png);
+    background-image: url(spritesheet.png);
     background-repeat: no-repeat;
     display: block;
 }
 
-.sprite_arrow_active_down {
+.sprite-arrow_active_down {
     width: 11px;
     height: 10px;
-    background-position: -5px -5px;
+    background-position: -10px -10px;
 }
 
-.sprite_arrow_active_up {
+.sprite-arrow_active_up {
     width: 11px;
     height: 10px;
-    background-position: -26px -5px;
+    background-position: -41px -10px;
 }
 
-.sprite_arrow_down {
+.sprite-arrow_down {
     width: 11px;
     height: 10px;
-    background-position: -47px -5px;
+    background-position: -72px -10px;
 }
 
-.sprite_arrow_hover_down {
+.sprite-arrow_hover_down {
     width: 11px;
     height: 10px;
-    background-position: -68px -5px;
+    background-position: -103px -10px;
 }
 
-.sprite_arrow_hover_up {
+.sprite-arrow_hover_up {
     width: 11px;
     height: 10px;
-    background-position: -89px -5px;
+    background-position: -134px -10px;
 }
 
-.sprite_arrow_up {
+.sprite-arrow_up {
     width: 11px;
     height: 10px;
-    background-position: -110px -5px;
+    background-position: -165px -10px;
 }
 
-.sprite_calendar {
+.sprite-calendar {
     width: 21px;
     height: 22px;
-    background-position: -131px -5px;
+    background-position: -196px -10px;
 }
 
-.sprite_calendar_activ {
+.sprite-calendar_activ {
     width: 21px;
     height: 22px;
-    background-position: -162px -5px;
+    background-position: -237px -10px;
 }
 
-.sprite_calendar_hover {
+.sprite-calendar_hover {
     width: 21px;
     height: 22px;
-    background-position: -193px -5px;
+    background-position: -278px -10px;
 }
 
-.sprite_check {
+.sprite-check {
     width: 26px;
     height: 22px;
-    background-position: -224px -5px;
+    background-position: -319px -10px;
 }
 
-.sprite_check_disabled {
+.sprite-check_ {
     width: 26px;
     height: 22px;
-    background-position: -260px -5px;
+    background-position: -365px -10px;
 }
 
-.sprite_checkbox {
+.sprite-checkbox {
     width: 22px;
     height: 22px;
-    background-position: -296px -5px;
+    background-position: -411px -10px;
 }
 
-.sprite_checkbox_disabled {
+.sprite-checkbox_ {
     width: 22px;
     height: 22px;
-    background-position: -328px -5px;
+    background-position: -453px -10px;
 }
 
-.sprite_facebook {
+.sprite-desert_stars {
+    width: 42px;
+    height: 17px;
+    background-position: -495px -10px;
+}
+
+.sprite-facebook {
     width: 10px;
     height: 19px;
-    background-position: -360px -5px;
+    background-position: -557px -10px;
 }
 
-.sprite_food {
+.sprite-food {
     width: 74px;
     height: 70px;
-    background-position: -380px -5px;
+    background-position: -587px -10px;
 }
 
-.sprite_house {
+.sprite-house {
     width: 75px;
     height: 72px;
-    background-position: -464px -5px;
-	
+    background-position: -681px -10px;
 }
 
-.sprite_souvenir {
+.sprite-html_academy_logo {
+    width: 113px;
+    height: 39px;
+    background-position: -776px -10px;
+}
+
+.sprite-html_academy_logo_active {
+    width: 113px;
+    height: 39px;
+    background-position: -909px -10px;
+}
+
+.sprite-html_academy_logo_hover {
+    width: 113px;
+    height: 39px;
+    background-position: -1042px -10px;
+}
+
+.sprite-rating_stars {
+    width: 89px;
+    height: 17px;
+    background-position: -1175px -10px;
+}
+
+.sprite-souvenir {
     width: 64px;
     height: 76px;
-    background-position: -918px -5px;
+    background-position: -1284px -10px;
 }
 
-.sprite_html_academy_logo {
-    width: 113px;
-    height: 39px;
-    background-position: -549px -5px;
-}
-
-.sprite_html_academy_logo_active {
-    width: 113px;
-    height: 39px;
-    background-position: -672px -5px;
-}
-
-.sprite_html_academy_logo_hover {
-    width: 113px;
-    height: 39px;
-    background-position: -795px -5px;
-}
-
-
-.sprite_twitter {
+.sprite-twitter {
     width: 17px;
     height: 15px;
-    background-position: -992px -5px;
+    background-position: -1368px -10px;
 }
 
-.sprite_youtube {
+.sprite-villas_stars {
+    width: 65px;
+    height: 17px;
+    background-position: -1405px -10px;
+}
+
+.sprite-youtube {
     width: 20px;
     height: 16px;
-    background-position: -1019px -5px;
+    background-position: -1490px -10px;
 }
