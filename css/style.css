@@ -80,11 +80,10 @@ a{
 }
 
 .promo{
-	background: #e4f1f9 url("../img/main_photo.jpg") no-repeat ;	
-	min-width: 768px;
-	max-width: 1200px;
-	background-size: 100% 100%;
-	overflow: hidden;
+	background: #e4f1f9 url("../img/main_photo.jpg") no-repeat 50%;	
+	height: 635px;
+    background-size: 100% auto;
+    overflow: hidden;
 }
 
 .promo:after{
