@@ -1,0 +1,139 @@
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite_arrow_active_down {
+    width: 11px;
+    height: 10px;
+    background-position: -5px -5px;
+}
+
+.sprite_arrow_active_up {
+    width: 11px;
+    height: 10px;
+    background-position: -26px -5px;
+}
+
+.sprite_arrow_down {
+    width: 11px;
+    height: 10px;
+    background-position: -47px -5px;
+}
+
+.sprite_arrow_hover_down {
+    width: 11px;
+    height: 10px;
+    background-position: -68px -5px;
+}
+
+.sprite_arrow_hover_up {
+    width: 11px;
+    height: 10px;
+    background-position: -89px -5px;
+}
+
+.sprite_arrow_up {
+    width: 11px;
+    height: 10px;
+    background-position: -110px -5px;
+}
+
+.sprite_calendar {
+    width: 21px;
+    height: 22px;
+    background-position: -131px -5px;
+}
+
+.sprite_calendar_activ {
+    width: 21px;
+    height: 22px;
+    background-position: -162px -5px;
+}
+
+.sprite_calendar_hover {
+    width: 21px;
+    height: 22px;
+    background-position: -193px -5px;
+}
+
+.sprite_check {
+    width: 26px;
+    height: 22px;
+    background-position: -224px -5px;
+}
+
+.sprite_check_disabled {
+    width: 26px;
+    height: 22px;
+    background-position: -260px -5px;
+}
+
+.sprite_checkbox {
+    width: 22px;
+    height: 22px;
+    background-position: -296px -5px;
+}
+
+.sprite_checkbox_disabled {
+    width: 22px;
+    height: 22px;
+    background-position: -328px -5px;
+}
+
+.sprite_facebook {
+    width: 10px;
+    height: 19px;
+    background-position: -360px -5px;
+}
+
+.sprite_food {
+    width: 74px;
+    height: 70px;
+    background-position: -380px -5px;
+}
+
+.sprite_house {
+    width: 75px;
+    height: 72px;
+    background-position: -464px -5px;
+	
+}
+
+.sprite_souvenir {
+    width: 64px;
+    height: 76px;
+    background-position: -918px -5px;
+}
+
+.sprite_html_academy_logo {
+    width: 113px;
+    height: 39px;
+    background-position: -549px -5px;
+}
+
+.sprite_html_academy_logo_active {
+    width: 113px;
+    height: 39px;
+    background-position: -672px -5px;
+}
+
+.sprite_html_academy_logo_hover {
+    width: 113px;
+    height: 39px;
+    background-position: -795px -5px;
+}
+
+
+.sprite_twitter {
+    width: 17px;
+    height: 15px;
+    background-position: -992px -5px;
+}
+
+.sprite_youtube {
+    width: 20px;
+    height: 16px;
+    background-position: -1019px -5px;
+}

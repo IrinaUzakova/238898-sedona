@@ -81,7 +81,7 @@ a{
 
 .promo{
 	background: #e4f1f9 url("../img/main_photo.jpg") no-repeat 50%;
-	height: 663px;
+	height: 635px;
 	background-size: 100% auto;
 	overflow: hidden;
 }
@@ -97,31 +97,58 @@ a{
 	padding-top: 77px;
 }
 .promo_text{
+	height: 210px;
 	text-align: center;
 	text-transform: uppercase;
+	box-sizing: border-box;
+	overflow: hidden;
 }
-.promo_text h1{/*!! то же самое. для 768 перенос строки становится в другое место*/
-	width: 600px;
-	margin: 0 auto;
+
+.promo_text h1{
+	width: 440px;
+	margin: 60px auto 0;
+}
+
+.promo_text p{
+	margin: 20px auto 60px;
+	font-size: 14px;
+	line-height: 24px;
 }
 
 .features{
-	
+	height: 255px;
+	background-color: #81b3d2;
+	overflow: hidden;
 }
 
 .features_text{
 	float: left;
 	width: 33.334%;
-	background-color: #81b3d2;
 	color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
-	padding-bottom: 88px;
+	
 }
 
 .features_text h2{
-	max-width: 10%;		
-	text-align: center;
+	width: 150px;
+	padding: 40px 120px 0 120px;
+}
+
+.features_text p{	 
+	padding: 0 49px;
+}
+
+.features_pic{
+	float: left;
+	width: 66.667%;
+	height: 255px;
+	
+}
+
+.benefits{
+	height: 330px;
+	overflow: hidden;
 }
 
 .benefits_item{
@@ -131,9 +158,243 @@ a{
 	text-transform: uppercase;
 }
 
-.features_pic{
-	float: left;
-	width: 66.667%;
+.benefits_item h2{
+	padding: 50px 160px 0;
+}
+
+.benefits_item p{
+	padding: 0 55px;
+}
+
+.benefits_house:before{
+	content: "";
+    display: block;
+	margin-bottom: 30px;
+	width: 75px;
+    height: 72px;
+	vertical-align: top;
+    background: url(../img/spritesheet.png) no-repeat;    
+    background-position: -464px -5px;
+}
+
+.benefits_food:before{
+	content: "";
+    display: block;
+	margin-bottom: 30px;	
+    width: 74px;
+    height: 70px;
+	vertical-align: middle;
+    background: url(../img/spritesheet.png) no-repeat;
+    background-position: -380px -5px;
+}
+
+.benefits_souvenir:before{
+	content: "";
+    display: block;
+	margin: 0 20px 30px;	
+    width: 75px;
+    height: 76px;
+	vertical-align: middle;
+    background: url(../img/spritesheet.png) no-repeat;
+    background-position: -918px -5px;
+}
+
+.features_gray_bgr{
 	height: 255px;
+	background-color: #eeeeee;
+	overflow: hidden;
+}
+
+.features_gray_bgr_text{
+	float: left;
+	width: 33.334%;
+	color: #0000000;
+	text-align: center;
+	text-transform: uppercase;
+	padding-bottom: 88px;
+}
+
+.features_gray_bgr_text h2{
+	padding: 30px 120px 0 ;
+}
+
+.features_gray_bgr_text p{
+	padding: 0 70px;
+}
+
+.offer{	
+	height: 300px;
+	padding: 60px;
+	text-align: center;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+
+.offer .offer_title{
+	margin-top: 60px;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 24px;
+}
+
+.offer p{
+	width: 440px;
+	margin: 40px auto 50px;
+	font-size: 14px;
+	line-height: 24px;
+}
+
+.offer .find_hotel_btn{
+	display: block;
+	background: #766357;
+	color: #ffffff;
+	width: 570px;
+	margin: 50px auto 0;
+	padding: 30px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 21px;
+	line-height: 26px;
+	box-sizing: border-box;
+}
+
+.form_search{
 	
+}
+
+.index_map{	
+	background: #cbdda9 url("../img/map.jpg") no-repeat 50%;
+	height: 470px;
+	background-size: 100% auto;
+	overflow: hidden;
+}
+
+.filter_range {
+	float: right;
+	width: 330px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.filter_range_title {
+	margin-bottom: 9px;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 21px;
+}
+
+.price_controls {
+	position: relative;  
+	height: 36px;
+	margin-bottom: 20px;
+	font-size: 0;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+}
+
+.price_controls::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	width: 2px;
+	height: 22px;
+
+	background: #ffffff;
+	transform: translate(-50%, -50%);
+}
+
+.price_controls label {
+	display: inline-block;
+
+	font-size: 14px;
+	line-height: 38px;
+	vertical-align: top;
+
+	cursor: pointer;
+}
+
+.price_controls .min_price,
+.price_controls .max_price {
+	width: 90px;
+	padding-left: 65px;
+}
+
+.price_controls input {
+	width: 50px;
+	margin: 0;
+
+	color: inherit;
+	font: inherit;
+
+	background: none;
+	border: none;
+}
+
+.range_controls {
+	position: relative;
+
+	margin-bottom: 32px;
+}
+
+.range_controls .scale {
+	height: 2px;
+
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.range_controls .bar {
+	width: 80%;
+	height: 2px;
+
+	background: #ffffff;
+}
+
+.range_toggle {
+	position: absolute;
+	top: -9px;
+
+	width: 4px;
+	height: 4px;
+
+	background: #ababab;
+	border: 8px solid #ffffff;
+	border-radius: 50%;
+	box-shadow: 0 2px 1px 0 rgba(0, 1, 1, 0.2);
+	cursor: pointer;
+}
+
+.range_toggle:hover {
+	background: #1c4f80;
+}
+
+.range_toggle_min {
+	left: 0;
+}
+
+.range_toggle_max {
+	left: 80%;
+}
+
+.btn_transparent {
+	display: block;
+	margin: 0 auto;
+	padding: 6px 35px;
+
+	font-size: 14px;
+	line-height: 20px;
+	color: #ffffff;
+	text-transform: uppercase;
+
+	background: transparent;
+	border: 2px solid #ffffff;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.btn_transparent:hover {
+	color: #000000;
+
+	background: #ffffff;
 }
