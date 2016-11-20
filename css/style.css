@@ -17,7 +17,6 @@ h1{
 h2{
 	font-weight: bold;
 	font-size: 21px;
-	line-height: 21px;
 }
 
 a{
@@ -88,19 +87,21 @@ a{
 /*/////////////////////////////////////*/
 
 .promo{
+	position: relative;
 	background: #e4f1f9 url("../img/main_photo.jpg") no-repeat 50%;	
-	height: 635px;
-    background-size: 100% auto;
-    overflow: hidden;
+	height: 510px;
+    background-size: cover;
+	background-position: 0 28.5%;
 }
 
 .promo:after{
 	content: "";
     display: block;	
-    background: url(../img/main_photo_mask.png) no-repeat;  
+	position: absolute;
+	bottom: 0;
+    background: url(../img/main_photo_mask.png) no-repeat center;  
 	width: 100%;
     height: 57px;
-	background-size: 100% 57px;
 }
 
 .promo img{	
@@ -153,12 +154,12 @@ a{
 }
 
 .features_text h2{
-	width: 150px;
-	padding: 40px 120px 0 120px;
+	padding: 40px 100px 0 100px;
 }
 
 .features_text p{	 
-	padding: 0 49px;
+	padding: 0 50px;
+	margin: 27px;
 }
 
 .features_pic{
@@ -169,8 +170,7 @@ a{
 }
 
 .benefits{
-	height: 330px;
-	overflow: hidden;
+	padding-bottom:
 }
 
 .benefits_item{
@@ -181,7 +181,8 @@ a{
 }
 
 .benefits_item h2{
-	padding: 50px 160px 0;
+	/*padding: 50px 160px 0;*/
+	padding-top: 60px;
 }
 
 .benefits_item p{
@@ -191,7 +192,7 @@ a{
 .benefits_house:before{
 	content: "";
     display: block;
-	margin-bottom: 30px;
+	margin: 0 auto 30px;
 	width: 75px;
     height: 72px;
 	vertical-align: top;
@@ -202,7 +203,7 @@ a{
 .benefits_food:before{
 	content: "";
     display: block;
-	margin-bottom: 30px;	
+	margin: 0 auto 30px;	
     width: 74px;
     height: 70px;
 	vertical-align: middle;
@@ -213,7 +214,7 @@ a{
 .benefits_souvenir:before{
 	content: "";
     display: block;
-	margin: 0 20px 30px;	
+	margin: 0 auto 30px;	
     width: 75px;
     height: 76px;
 	vertical-align: middle;
@@ -222,22 +223,21 @@ a{
 }
 
 .features_gray_bgr{
-	height: 255px;
 	background-color: #eeeeee;
-	overflow: hidden;
+	
 }
 
 .features_gray_bgr_text{
 	float: left;
 	width: 33.334%;
-	color: #0000000;
+	color: #000000;
 	text-align: center;
 	text-transform: uppercase;
 	padding-bottom: 88px;
 }
 
 .features_gray_bgr_text h2{
-	padding: 30px 120px 0 ;
+	padding: 30px 28% ;
 }
 
 .features_gray_bgr_text p{
