@@ -26,7 +26,7 @@
               <a href="#">Карта штата</a>
             </li>
             <li>
-              <a href="#">Гостиницы</a>
+              <a href="hotels.html">Гостиницы</a>
             </li>
           </ul>
         </nav>
@@ -56,12 +56,10 @@
 				<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
 			</div>
 			<div class="benefits_item ">
-				<span ></span>
 				<h2 class="benefits_food">Еда</h2>
 				<p>Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
 			</div>
 			<div class="benefits_item ">
-				<span ></span>
 				<h2 class="benefits_souvenir">Сувениры</h2>
 				<p>Не только китайского, но и местного производства!</p>
 			</div>
@@ -96,10 +94,58 @@
 		<div class="offer">
 			<b class="offer_title">Заинтересовались?</b>
 			<p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
-			<a class="find_hotel_btn" >Поиск гостиницы в Седоне</a>
+			<a class="find_hotel_btn" href="">Поиск гостиницы в Седоне</a>
 		</div>
 	</main>
     <footer class="main_footer">
+		
+		<form class="form_search" action="https://echo.htmlacademy.ru" method="post">
+			<div class="form_search_row clearfix">
+				<div class="form_search_column_left form_search_lable">
+					<label for="date_arrive">Дата заезда:</label>
+				</div>					
+				<div class="form_search_column_right ">
+					<input class="form_search_input" id="date_arrive" type="text" placeholder="24 апреля 2016" required>
+					<i class="calendar"></i>
+				</div>
+			</div>
+			<div class="form_search_row clearfix">
+				<div class="form_search_column_left form_search_lable">
+					<label for="date_departure">Дата выезда:</label>						
+				</div>					
+				<div class="form_search_column_right">
+					<input class="form_search_input" id="date_departure" type="text" placeholder="4 июля 2016" required>
+					<i class="calendar"></i>
+				</div>
+			</div>
+			<div class="form_search_row clearfix">
+				<div class="form_search_column_left">
+					<div class="form_search_lable">
+						<label for="number_adults">Взрослые:</label>						
+					</div>							
+				</div>
+				<div class="form_search_column_right">
+					<div class="">
+						<i class="icon_minus"></i>
+						<input class="form_search_input_person" id="number_adults" type="number" placeholder="2" size="2"required>
+						<i class="icon_plus"></i>
+					</div>	
+					<div class="form_search_lable">
+						<label for="number_kids">Дети:</label>					
+					</div>					
+					<div class="">
+						<i class="icon_minus"></i>
+						<input class="form_search_input_person" id="number_kids" type="number" placeholder="0" size="2" required>
+						<i class="icon_plus"></i>
+					</div>						
+				</div>
+			</div>
+			<button class="form_search_btn" type="submit">
+				Найти
+			</button>
+		</form>
+		<div class="map">
+		</div>
 		<div class="footer_info">
 			<div class="main_footer_sedona">
 				#VisitSedona	
@@ -116,51 +162,6 @@
 		</div>
 	</footer>
 	
-		<!--<form class="form_search" action="https://echo.htmlacademy.ru" method="post">
-			<div class="form_search_row clearfix">
-				<div class="form_search_column_left form_search_lable">
-					<label for="date_arrive">Дата заезда:</label>
-				</div>					
-				<div class="form_search_column_right ">
-					<input class="form_search_input" id="date_arrive" type="text" value="24 апреля 2016" required>
-					<i class="calendar"></i>
-				</div>
-			</div>
-			<div class="form_search_row clearfix">
-				<div class="form_search_column_left form_search_lable">
-					<label for="date_departure">Дата выезда:</label>						
-				</div>					
-				<div class="form_search_column_right">
-					<input class="form_search_input" id="date_departure" type="text" value="4 июля 2016" required>
-					<i class="calendar"></i>
-				</div>
-			</div>
-			<div class="form_search_row clearfix">
-				<div class="form_search_column_left">
-					<div class="form_search_lable">
-						<label for="number_adults">Взрослые:</label>						
-					</div>							
-				</div>
-				<div class="form_search_column_right">
-					<div class="">
-						<i class="icon_minus"></i>
-						<input class="form_search_input_person" id="number_adults" type="text" value="2" required>
-						<i class="icon_plus"></i>
-					</div>	
-					<div class="form_search_lable">
-						<label for="number_kids">Дети:</label>					
-					</div>					
-					<div class="">
-						<i class="icon_minus"></i>
-						<input class="form_search_input_person" id="number_kids" type="text" value="0" required>
-						<i class="icon_plus"></i>
-					</div>						
-				</div>
-			</div>
-			<button class="btn form_search_btn" type="submit">
-				Найти
-			</button>
-		</form>-->
 		
 	</div>
 
